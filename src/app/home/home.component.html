@@ -1,0 +1,9 @@
+<p>home works!</p>
+<div class="home-name">{{homeName}}</div>
+<button (click)="clicked()">Click me</button>
+<br>
+<button (click)="goToDash()">Go to dashboard</button>
+<div *ngIf="showYes" >yessssssss</div>
+<input type="text" [(ngModel)] = "phone"/>
+<input (input)="onInputChange($event)" placeholder="Enter your home name" />
+<div>Below Name {{belowName}}   </div>
